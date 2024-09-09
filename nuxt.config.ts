@@ -1,5 +1,5 @@
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2024-09-09',
   runtimeConfig: {
     public: {}
   },
@@ -27,7 +27,7 @@ export default defineNuxtConfig({
       },
       title: 'Green Screen Creator',
       link: [
-        { rel: 'canonical', href: 'https://green-screen-creator.vercel.app' },
+        { rel: 'canonical', href: 'https://greenscreencreator.com' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
       ],
       meta: [
@@ -51,6 +51,12 @@ export default defineNuxtConfig({
             'Track an object in a video and add a green screen to the background.'
         },
         {
+          hid: 'keywords',
+          name: 'keywords',
+          content:
+            'green screen, green screen video, green screen video creator, green screen creator, video green screen'
+        },
+        {
           hid: 'og:type',
           name: 'og:type',
           property: 'og:type',
@@ -60,13 +66,13 @@ export default defineNuxtConfig({
           hid: 'og:url',
           name: 'og:url',
           property: 'og:url',
-          content: 'https://green-screen-creator.vercel.app'
+          content: 'https://greenscreencreator.com'
         },
         {
           hid: 'og:site_name',
           name: 'og:site_name',
           property: 'og:site_name',
-          content: 'green-screen-creator.vercel.app'
+          content: 'greenscreencreator.com'
         },
         {
           hid: 'og:title',
@@ -85,7 +91,7 @@ export default defineNuxtConfig({
           hid: 'og:image',
           name: 'og:image',
           property: 'og:image',
-          content: 'https://green-screen-creator.vercel.app/cover.jpg'
+          content: 'https://greenscreencreator.com/cover.jpg'
         },
         {
           name: 'twitter:card',
@@ -102,7 +108,7 @@ export default defineNuxtConfig({
         },
         {
           name: 'twitter:image',
-          content: 'https://green-screen-creator.vercel.app/cover.jpg'
+          content: 'https://greenscreencreator.com/cover.jpg'
         },
         {
           hid: 'msapplication-TileColor',
@@ -118,7 +124,7 @@ export default defineNuxtConfig({
         {
           hid: 'apple-mobile-web-app-title',
           name: 'apple-mobile-web-app-title',
-          content: 'green-screen-creator.vercel.app'
+          content: 'greenscreencreator.com'
         }
       ],
       script: [
