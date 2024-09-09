@@ -67,10 +67,39 @@
         span.text-primary Green 
         | Screen 
         span.text-primary Creator
-      p.mt-6.mb-10.text-lg.tracking-tight.text-gray-600(
+      h2.mt-6.mb-10.text-lg.tracking-tight.text-gray-600(
         class="dark:text-gray-100"
       )
-        | Track an object in a video and add a green screen to the background.
+        | Track objects and add green screen backgrounds in videos.
+
+      .mb-10(
+        class="flex flex-col justify-center items-center gap-2"
+      )
+        .text-center(
+          class="flex flex-col gap-2"
+        )
+          p.text-sm.text-gray-500(
+            class="dark:text-gray-400"
+          )
+            | 1. Input your Replicate API token.
+          .text-sm.text-gray-500(
+            class="dark:text-gray-400"
+          )
+            | 2. Upload a video.
+          .text-sm.text-gray-500(
+            class="dark:text-gray-400"
+          )
+            | 3. Select an object to track.
+          .text-sm.text-gray-500(
+            class="dark:text-gray-400"
+          )
+            | 4. Select a green screen background.
+          .text-sm.text-gray-500(
+            class="dark:text-gray-400"
+          )
+            | 5. Download the video.
+
+      
       .flex.justify-center.space-x-2
         u-input(
           v-model="api_token"

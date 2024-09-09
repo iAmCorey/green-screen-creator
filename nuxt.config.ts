@@ -25,7 +25,7 @@ export default defineNuxtConfig({
       htmlAttrs: {
         class: 'h-full'
       },
-      title: 'Green Screen Creator',
+      title: 'Green Screen Creator: Track objects and add green screen in videos.',
       link: [
         { rel: 'canonical', href: 'https://greenscreencreator.com' },
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' }
@@ -48,7 +48,7 @@ export default defineNuxtConfig({
           hid: 'description',
           name: 'description',
           content:
-            'Track an object in a video and add a green screen to the background.'
+          'Green Screen Creator: Track objects in videos, add green screen backgrounds. Create pro effects quickly without complex software. Ideal for video enthusiasts.'
         },
         {
           hid: 'keywords',

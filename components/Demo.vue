@@ -5,7 +5,7 @@
   .text-center(
     class="sm:pb-12 md:pb-20"
   )
-    h1.text-4xl.font-bold.tracking-tight.text-gray-900(
+    h2.text-4xl.font-bold.tracking-tight.text-gray-900(
       class="sm:text-6xl"
     ) Demos
   video.w-full.rounded-2xl.mt-12(
