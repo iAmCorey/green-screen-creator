@@ -50,7 +50,7 @@
       span.text-primary creator
     .grow
     u-button(
-      to="https://github.com/replicate/green-screen-creator"
+      to="https://github.com/iamcorey/green-screen-creator"
       target="_blank"
       size="lg"
       icon="i-heroicons-code-bracket"
