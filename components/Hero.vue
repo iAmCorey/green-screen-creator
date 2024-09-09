@@ -43,19 +43,20 @@
   )
     img.max-h-8(src="/logo.png")
     .text-base(
-      class="md:text-2xl"
+      class="md:text-2xl font-bold"
     )
-      span.text-primary green 
-      | screen 
-      span.text-primary creator
+      span.text-primary Green 
+      | Screen 
+      span.text-primary Creator
     .grow
     u-button(
       to="https://github.com/iamcorey/green-screen-creator"
       target="_blank"
       size="lg"
-      icon="i-heroicons-code-bracket"
+      icon="grommet-icons:github"
       variant="ghost"
-    ) Get the Code
+      color="gray"
+    )
   .mx-auto.gap-16.flex.flex-col.max-w-4xl(
     class="sm:gap-y-24"
   )
